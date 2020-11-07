@@ -38,5 +38,36 @@ html {
   text-decoration: none;
 }
 
+.time-body {
+  background-color: #4da2e3;
+  font-family: Helvetica, sans-serif;
+}
 
+.time-content:hover {
+  transform: scale(1.05);
+}
+
+.logo {
+  margin-right: 20px;
+  height: 60px;
+  margin-top: -5px;
+}
+
+.navbar-brand h3 {
+  display: inline-block;
+  margin-top: 10px;
+  float: right;
+}
+
+@media (max-width: 576px) {
+  .navbar-brand h3 {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo {
+    height: 50px;
+  }
+}
 
