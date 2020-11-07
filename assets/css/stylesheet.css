@@ -1,0 +1,40 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.btn.btn-outline-light.btn-lg {
+  margin: 20px;
+}
+
+.welcome-page {
+  background-image: url("../../assets/img/scenery/bundaran-its-580.png");
+  color: rgba(0,0,0,0.8);
+}
+
+.clean-block.clean-hero.welcome-page {
+}
+
+.button-nav {
+  display: inline-block;
+  width: 100%;
+  padding: 20px 40px;
+  text-decoration: none;
+  color: white;
+}
+
+.button-nav:hover {
+  text-decoration: none;
+}
+
+.button-in-page {
+  display: inline-block;
+  padding: 10px 20px;
+  width: 100%;
+  text-decoration: none;
+}
+
+.button-in-page:hover {
+  color: white;
+  text-decoration: none;
+}
+
