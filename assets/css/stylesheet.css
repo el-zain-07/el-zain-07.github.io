@@ -83,3 +83,15 @@ html {
   }
 }
 
+@media (min-width: 573px) {
+  #alt {
+    display: none;
+  }
+}
+
+@media (max-width: 573px) {
+  #real {
+    display: none;
+  }
+}
+
