@@ -83,6 +83,10 @@
   position: relative;
   border-radius: 6px;
 }
+.time-body {
+  background-color: #4da2e3;
+  font-family: Helvetica, sans-serif;
+}
 
 @media screen and (max-width: 600px) {
   .timeline::after {
