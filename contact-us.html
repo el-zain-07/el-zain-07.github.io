@@ -12,25 +12,7 @@
     <link rel="stylesheet" href="assets/css/smoothproducts.css">
     <link rel="stylesheet" href="assets/css/stylesheet.css">
     <link rel="stylesheet" href="assets/css/Timeline-F19690.css">
-    <script
-	src="https://code.jquery.com/jquery-3.4.1.js"
-	integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-	crossorigin="anonymous"></script>
-    <script>
-	function SubForm (){
-		$.ajax({
-			url:"https://api.apispreadsheets.com/data/3159/",
-			type:"post",
-			data:$("#myForm").serializeArray(),
-			success: function(){
-				alert("Form Data Submitted :)")
-			},
-			error: function(){
-				alert("There was an error :(")
-			}
-		});
-	}
-   </script>
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 </head>
 
 <body>
@@ -55,12 +37,12 @@
                     <h2 class="text-info">Contact Us</h2>
                     <p>Feel free to reach out to us</p>
                 </div>
-                <form id="myForm">
+                <form action="https://send.pageclip.co/NVKVDVqxSDrR3W7a1x26rSglgs3Qupgg" class="pageclip-form" method="post">
                     <div class="form-group"><label>Name</label><input class="form-control" type="text" name="full_name"></div>
                     <div class="form-group"><label>Subject</label><input class="form-control" type="text" name="subject"></div>
                     <div class="form-group"><label>Email</label><input class="form-control" type="email" name="email"></div>
                     <div class="form-group"><label>Message</label><textarea class="form-control" name="message"></textarea></div>
-                    <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Send</button></div>
+                    <div class="form-group"><button class="btn btn-primary btn-block pageclip-form__submit" type="submit">Send</button></div>
                 </form>
             </div>
         </section>
@@ -93,6 +75,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
     <script src="assets/js/smoothproducts.min.js"></script>
     <script src="assets/js/theme.js"></script>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </body>
 
 </html>
